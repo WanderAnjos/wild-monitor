@@ -3,6 +3,8 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+import '@/app/global.css';
+
 export default function Home() {
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-center">
